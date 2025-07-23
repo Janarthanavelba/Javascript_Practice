@@ -1,0 +1,66 @@
+.heading
+{
+    text-align: center;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+}
+.calci
+{
+    height: 400px;
+    width: 400px;
+    border: solid black;
+    margin-top: 100px;
+    margin-left: 550px;
+    background-color: gray;
+}
+.input1,.input2
+{
+    padding: 20px;
+    margin-left: 20px;
+    
+}
+.input1>input{
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+    border: solid rgb(105, 102, 102);
+}
+.input2>input{
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+    border: solid rgb(101, 99, 99);
+}
+.add,.sub,.mul,.divi,.mod
+{
+    height: 50px;
+    width: 50px;
+    border: solid black;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.md,.as
+{
+      display: flex;
+}
+.output
+{
+    height: 90px;
+    width: 80px;
+    border: solid black;
+    margin-left: 50px;
+    background-color: rgb(194, 229, 243);
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mod
+{
+    margin-top: 35px;
+    margin-left: 100px;
+}
